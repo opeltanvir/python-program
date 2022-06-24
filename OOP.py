@@ -1,5 +1,8 @@
+def method_name(a,b):
+    print("A methood")
+
 class person:
-    def__init__(self,person_name):
+    def __init__(self,person_name):
        self.name = person_name
 
     def get_name(self):
@@ -12,4 +15,5 @@ b_person =person("opel")
 
 print(a_person.get_name())
 print(b_person.get_name())
+
 
